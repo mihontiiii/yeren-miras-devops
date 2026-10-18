@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: yeren-miras-devops
+    container_name: yeren-miras-container
+    environment:
+      - STUDENT_NAME=Miras
+      - STUDENT_SURNAME=Yeren
+      - STUDENT_GROUP=IT2-2308
+      - STUDENT_ID=41517
